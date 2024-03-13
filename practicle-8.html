@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!----Write a javascript function to print all of an object method-->
+    <button onclick="printAllObjectMethods()">print Object Method</button>
+    <div id="printObjectEx"></div>
+    <script>
+        function printAllObjectMethods(){
+            var ob={
+                st_id:1,
+                st_name:"bishal",
+                isName:function(){
+                    return `my name is ${this.st_name} ,${this.st_id}`
+                }
+            };
+            document.getElementById("printObjectEx")
+            .innerHTML=ob.isName();
+        }
+    </script>
+</body>
+</html>
