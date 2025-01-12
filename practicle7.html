@@ -9,21 +9,7 @@
     <!--7.create a js file to display object-->
     <button onclick="ListObjectProperties()">Object list Example</button>
     <div id="ListobjectEx"></div>
-    <script>
-        function ListObjectProperties(){
-            var ob={
-                student_class:9,
-                student_id:1,
-                st_name:"Prince"
-              };
-            console.log(ob.st_name,ob.student_class,ob.student_id);
-            let text="";
-            for(let x in ob){
-                text+=ob[x]+" ";
-                console.log(x);
-            }
-            document.getElementById("ListobjectEx") .innerHTML=text;
-        }
+    <script src="script7.js">
     </script>
 </body>
 </html>
