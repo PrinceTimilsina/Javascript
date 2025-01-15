@@ -1,0 +1,20 @@
+#bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+button{
+    margin: 350px;
+    margin-left: 90px;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+    font-size: 3rem;
+    border-radius: 50px;
+    width: 180px;
+    padding: 10px;
+}

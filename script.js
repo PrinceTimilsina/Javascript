@@ -147,4 +147,24 @@
 //    h1.innerHTML="Changed" })
  //dblclick
 
- //--------------------------------------
+ //---------------------FURTHER UNDERSTANDING-----------------
+//  document.querySelector("h1")
+//  document.querySelector("h2")
+//  document.querySelector("#box")
+//  document.querySelector(".box")
+
+// var a = document.querySelector("h1");
+// console.log(a);              // Logs the element as <h1> in some browsers
+// console.log(a.outerHTML);    // Logs <h1>PRINCE</h1>
+// a.innerHTML="FRANCE"
+// a.style.color="Blue"
+// a.style.backgroundColor="White"
+// a.style.borderRadius="20px";
+
+// var a = document.querySelector("h1");
+// a.addEventListener("click",function(){
+//     a.innerHTML="HEYYYYYY"
+//     // console.log("Hey");
+//     a.style.backgroundColor = "#000"
+//      a.style.color ="yellow"
+// })
