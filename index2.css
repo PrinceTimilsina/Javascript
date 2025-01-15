@@ -1,0 +1,12 @@
+*{
+    background-color: black;
+    color:white;
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700px;
+}
