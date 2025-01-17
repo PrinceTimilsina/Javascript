@@ -2,4 +2,4 @@
 
 let c= 38;
 let f=c*1.8+32;
-console.log(f) //100.4 degree fahrenheit
+console.log(f) //100.4 degree fahrenheit-----
