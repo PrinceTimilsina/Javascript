@@ -34,3 +34,6 @@ console.dir(firstelements);
 
 let allelements = document.querySelectorAll("p");
 console.dir(allelements);
+
+//DOM Manipulation
+ document.getElementById("header").innerHTML="Hey i am prince";
