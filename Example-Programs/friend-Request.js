@@ -1,3 +1,4 @@
+//-JS---code for friendrequest:
 var state = document.querySelector("h5");
 console.log(state);
 var btn = document.querySelector("#add")
