@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins";
+    color: #ffff;
+    
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: rgb(203, 226, 226);
+}
+
+#card{
+    height: 420px;
+    width: 300px;
+    background-color: #ffff;
+}
