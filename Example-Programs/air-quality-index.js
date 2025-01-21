@@ -1,6 +1,6 @@
 //Create an air-quality-index.js program.
 //Google the AQI in your area and define an aqi variable with that number.
-//Air quality index(ktm.npl): 123
+//Air quality index(ktm.npl): 123 
 let aqi=123;
 if (aqi <= 50) { // AQI = 0-50
     console.log("Air quality is satisfactory");
