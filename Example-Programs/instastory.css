@@ -35,9 +35,10 @@ body{
     border-bottom: 1px solid #dadada
 }
 
-.storys{
+.stories{
     background-color: blue;
     height: 90px;
     width: 90px;
     border-radius: 50%;
+    border: 2px solid black;
 }
