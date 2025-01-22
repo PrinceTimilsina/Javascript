@@ -17,21 +17,25 @@ var arr = [
     },
 ];
 var story =  document.querySelector("#story")
-var clutter = ""
+var clutter = "";
 arr.forEach(function(elem,idx){
 clutter += `
 <div class="stories">
             <img id="${idx}"src="${elem.dp}" >
 </div>
-`
-})
+`;
+});
 
 // `` "template literals
 
 story.innerHTML = clutter;
 
-story.addEventListener("click",function(dets){
-//   console.log(arr[dets.target.id].story)
-document.querySelector("#fullscreen").style.display = "block";
-document.querySelector("#fullscreen").style.backgroundImage = `url${arr[dets.target.id].story}`
-}) 
+story.addEventListener("click", function(dets) {
+    // console.log(arr[dets.target.id].story)
+    document.querySelector("#fullscreen").style.display = "block";
+    document.querySelector("#fullscreen").style.backgroundImage = `url(${arr[dets.target.id].story})`;
+
+   setTimeout(function(){
+    document.querySelector("#fullscreen").style.display = "none";
+   },3000)
+});
