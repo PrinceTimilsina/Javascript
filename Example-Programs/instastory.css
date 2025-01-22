@@ -32,13 +32,28 @@ body{
     width: 100%;
     /* background-color: red; */
     padding: 15px;
-    border-bottom: 1px solid #dadada
+    border-bottom: 1px solid #dadada;
+    display :flex;
+    justify-content: space-between; /* Add spacing between circles */
+    align-items: center; /* Align circles vertically */
+
+
 }
 
 .stories{
-    background-color: blue;
     height: 90px;
     width: 90px;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 3px solid red;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.stories img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display:inline-block;
 }
