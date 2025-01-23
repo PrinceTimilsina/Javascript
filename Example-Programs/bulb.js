@@ -8,7 +8,7 @@ btn.addEventListener("click",function(){
     flag++;
 }
  else{
-    bulb.style.backgroundColor = "white"
+    bulb.style.backgroundColor = "white";
     console.log("OFF");
     flag = 0;
  }
