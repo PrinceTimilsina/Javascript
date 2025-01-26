@@ -1,3 +1,4 @@
+//Bulb.js:
 var bulb = document.querySelector("#bulb")
 var btn =  document.querySelector("Button")
 var flag = 0;
