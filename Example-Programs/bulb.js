@@ -12,5 +12,5 @@ btn.addEventListener("click",function(){
     bulb.style.backgroundColor = "white";
     console.log("OFF");
     flag = 0;
- }
+ }   
 })
