@@ -1,7 +1,7 @@
 let grade = 93;
 if (grade > 90) {
   console.log("A+");
-} else if (grade > 80) {
+} else if (grade > 80) { 
   console.log("A");
 } else if (grade > 70) {
   console.log(" B+");
