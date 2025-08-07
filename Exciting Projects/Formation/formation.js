@@ -11,7 +11,7 @@ const players = [
     { name: 'TRENT', x: 80, y: 75 }
 ];
 
-const pitch = document.querySelector('.pitch');
+const pitch = document.querySelector('.pitch'); 
 
 // Create input element for editing names
 const nameInput = document.createElement('input');
