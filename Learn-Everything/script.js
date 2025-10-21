@@ -12,6 +12,7 @@
 
 var a = 12;
 var a = 13;
+//-PROBLEMS--
 //it adds it into window
 //function scoped
 //you can declare it again with same name and it won't show error
@@ -21,4 +22,6 @@ var a = 13;
 // let a = 13;
 
 //------------------const---------------------------
+//-Value must be cosntant through out the code
 
+//Scope (global,block,functional)
