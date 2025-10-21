@@ -25,3 +25,24 @@ var a = 13;
 //-Value must be cosntant through out the code
 
 //Scope (global,block,functional)
+// var a = 12;----global
+//  {
+//   var d = 10;  --------block
+// }
+// function abc(){
+// 	var c = 13;   ------functional
+// }
+
+// Reassignment,redeclaration
+
+// var a = 12;
+// a = 13;   -------reassignment
+
+// var a = 233; -----redeclaration
+
+//NOTE:Redeclaration is possible with var but redeclaration is not possible with  let
+
+
+//TEMPORAL DEAD ZONE---IMP IMP IMP IMP 
+
+
