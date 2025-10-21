@@ -45,4 +45,7 @@ var a = 13;
 
 //TEMPORAL DEAD ZONE---IMP IMP IMP IMP 
 
+console.log(ab);
+let ab = 12;
+
 
