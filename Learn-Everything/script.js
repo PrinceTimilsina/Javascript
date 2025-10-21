@@ -43,9 +43,26 @@ var a = 13;
 //NOTE:Redeclaration is possible with var but redeclaration is not possible with  let
 
 
-//TEMPORAL DEAD ZONE---IMP IMP IMP IMP 
+//TEMPORAL DEAD ZONE--- TDZ
 
-console.log(ab);
-let ab = 12;
+// console.log(ab);
+// let ab = 12;
 
+//TDZ is found in let,const,but but but NOT IN VAR
+
+
+//HOISTING IMPACT PER TYPE
+//Hoisting ->when a variable is formed in js it divides into  two parts and its declare part goes up and its initialization part goes down
+
+console.log(n);
+
+var n = undefined; //----DECLARE PART
+n = 12;           //-----Initialization part
+
+//hoisting happens in all three-var,let,const
+
+
+
+console.log(h);
+let h=7;
 
