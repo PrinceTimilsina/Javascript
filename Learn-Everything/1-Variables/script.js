@@ -1,5 +1,5 @@
 //var,let,const-line by line comparion
-// var a;
+// var a; 
 // var a = 12;
 // let a;
 // let a = 13;

@@ -5,22 +5,22 @@
 
 //Reference->While copying these we cannot get real copy but so,we get reference of its parent
 //Arrays,Objects,Functions
-//   []     {}       ()  --game of brackets
+// []     {}       ()      ---------game of brackets
 
 
 //-----------STRING-------------
 //''  - single quotes
 //""  - double quotes
-// `` - backticks
+// `` - backticks    
 
 //----------NUMBER--------------
-//12 -integer
-//12.3 -integer
+//12 -integer                   
+//12.3 -integer                 
 // 0.3 -integer
 
 //----------Boolean-----------
-//let a = true;
-//let b = false;
+//let a = true;               
+//let b = false;              
 
 //----------NULL--------------
 // let selectedStudents = null;
