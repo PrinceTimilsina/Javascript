@@ -38,4 +38,33 @@
   
 //----------Dynamic Typing----------------
  
+// js do not have static typing it has dynamic typing which means you can change data.
+//Type coercion ->  it is a concept in which your one type automatically converts into other type
+
+//Truthy vs falsy values
+
+// 0 ,flase, "" ,null, undefined , NaN ,document.all -----these all are falsy values----false
+
+// all others will be true anyting other 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
