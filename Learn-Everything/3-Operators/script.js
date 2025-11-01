@@ -44,5 +44,10 @@ a/=2 //it means divide it by 2
 a%=3//it menas mod of a
 
 
+//---------LOGICAL--
+// && || !
+
+true && true  
+
 
  
