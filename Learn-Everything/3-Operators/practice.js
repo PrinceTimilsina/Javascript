@@ -43,6 +43,7 @@ else{
 
 //Q5
 
-let score =  78;
+let score =  50;
 let grade = score >= 90? "A" : score>=75 ? "B" : score >= 60?"c": "fail";
 console.log(grade);
+
