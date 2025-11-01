@@ -45,5 +45,17 @@ else{
 
 let score =  50;
 let grade = score >= 90? "A" : score>=75 ? "B" : score >= 60?"c": "fail";
-console.log(grade);
+console.log(grade); //----fail----
 
+//Q5
+
+let points = 120;
+let status =  points>100?"Gold" : points>50?"Silver" :"Bronze";
+console.log(status);
+
+//Q6
+
+let loggedIn = true;
+let hasToken = false;
+let access = loggedIn && hasToken ? "Allow" : "Deny";
+console.log(access);
