@@ -49,5 +49,17 @@ a%=3//it menas mod of a
 
 true && true  
 
+//-------unary-----------
+// + - ! typeof ++ --
+
+// ternary operator-----
+// ?: 
+
+// consition ? true : fasle
+
+12>13 ?console.log("true") : console.log("false");
+
+//----------------EXERCISE--------------
+
 
  
