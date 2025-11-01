@@ -29,3 +29,20 @@ if(!(temp < 30)){   //here,it means if temperature is not less than 30
 else{
 	console.log("Pleasant");
 }
+
+//Q4
+
+let a = 0;
+if(a){
+	console.log("Truthy");
+}
+
+else{
+	console.log("Falsy");
+}
+
+//Q5
+
+let score =  78;
+let grade = score >= 90? "A" : score>=75 ? "B" : score >= 60?"c": "fail";
+console.log(grade);
