@@ -17,6 +17,7 @@
   //but,
   12==="12"  ///false ----its the right answer
 // !=
+   12!=13 // true   ,basically != is opporsite of ==
 // !==
 // >=
 //<=
