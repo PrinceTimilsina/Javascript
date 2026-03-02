@@ -1,6 +1,8 @@
-let a=5
-let b=10
-func(sum){
-    return a+b
+let a = 5;
+let b = 10;
+
+function sum() {
+    return a + b;
 }
-func(sum);
+
+console.log(sum());
