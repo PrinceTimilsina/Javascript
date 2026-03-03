@@ -21,11 +21,10 @@ let a = ()=>{
 a();
 
 //PARAMETERS,AND ARGUMENTS
-
-function add(v1,v2){  //----->v1,v2 are parameters
+function add(v1,v2){  //--------------->v1,v2 are parameters
     console.log(v1+v2)
 }
-add(2,3);       //---------->arguments
+add(2,3);   //------------------------->arguments
 
 
 
