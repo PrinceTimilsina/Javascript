@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+     background-color: rgb(235, 234, 234);
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    font-weight: 320;
+    font-size: 14px;
+}
+
+.navbar img{
+    height: 17px;
+}
+
+.hero{
+    height: 700px;
+    background-image: url(heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero button{
+    background-color: rgb(7, 7, 255);
+    height: 40px;
+    width: 75px;
+    border-radius: 20px;
+    color: white;
+}
+.hero .text{
+    background-color: gray;
+    width: 1000px;
+    font-size:20px;
+    font-weight: 200px;
+    line-height: 33px;
+}
+
+.hero span{
+    color: white;
+}
