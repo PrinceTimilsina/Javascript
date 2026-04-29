@@ -122,17 +122,18 @@ body{
     padding: 10px 18px;
     background-color: rgb(7, 7, 255);
     height: 47px;
-    width: 160px;
+    width: 14r0px;
     border-radius: 30px;
     border: none;
-    color: white;
+    color: white;  
 }
 
 .iphone .text2 .i2{
-     width: 160px;
+     width: 150px;
      color:rgb(7, 7, 255);
      border: 1px solid rgb(7, 7, 255);
      background-color: white;
+       transition: all 0.3s ease;
 }
 
 .text2 .i2:hover{
@@ -209,53 +210,95 @@ body{
 .airpad{
     height: 690px;
     background-color: beige;
-    border-bottom: 15px solid;
+    border-bottom: 15px solid white;
+      background-image: url(tab.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 
 .series{
-    margin-top: 15px;
+    margin-top: 0px;
      height: 1900px;
-    background-color: beige;
-    border-bottom: 15px solid;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 15px solid white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .watch{
     height: 590px;
     background-color: red;
     width: 840px;
-    
+    background-image: url(watch.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 .fest{
   height: 590px;
     background-color: red;
     width: 840px;
+    background-image: url(heroimg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 .airpods{
   height: 590px;
     background-color: red;
     width: 840px;
+    background-image: url(airpods.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 .air{
   height: 590px;
     background-color: red;
     width: 840px;
+    background-image: url(macbookair.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 .trade{
   height: 590px;
     background-color: red;
     width: 840px;
+    background-image: url(trade.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
 
 .card{
   height: 590px;
     background-color: red;
     width:840px;
+    background-image: url(card.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scale(1);
+    overflow: hidden;
 }
