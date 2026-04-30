@@ -219,6 +219,16 @@ body{
     overflow: hidden;
 }
 
+.airpad .text2{     
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    text-align: center;
+    line-height: 30px;
+}
 
 .series{
     margin-top: 0px;
@@ -302,3 +312,4 @@ body{
     transform: scale(1);
     overflow: hidden;
 }
+
