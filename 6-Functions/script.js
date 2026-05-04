@@ -11,8 +11,8 @@ repeat();  //--function call
 let fnc = function(){
   //fnc expression
 }
-
-//--FAT ARROW FUNC
+ 
+//--FAT ARROW FUNC~~~~~~~~~~~~~~~~~~~~~~FAT ARROW
 
 let a = ()=>{
     console.log("fat");
