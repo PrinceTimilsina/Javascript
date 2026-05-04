@@ -3,4 +3,4 @@ function rps(user,computer){
   
 }
 
-rps("Rock","Scissor")
+rps("Rock","Scissor","paper")
