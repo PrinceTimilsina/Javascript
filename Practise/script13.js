@@ -2,5 +2,5 @@
 //table of 10
 for(let i = 1;i<11;i++)
 {
-    console.log(`10 X ${i} = ${10*i}`);  //--this: ${} is actually template literal
+    console.log(`10 X ${i} = ${10*i}`);  //-------this: ${} is actually template literal
 }
