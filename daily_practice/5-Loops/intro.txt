@@ -1,0 +1,16 @@
+What is a loop?
+
+A- loop is used to repeat code multiple times.
+
+Instead of writing:
+
+console.log(1);
+console.log(2);
+console.log(3);
+
+We do:
+
+for (let i = 1; i <= 3; i++) {
+  console.log(i);
+}
+

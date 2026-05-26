@@ -2,7 +2,7 @@ console.log("------Function------");
 //what why how?
 //WAY-I
 function repeat(){
-    console.log("WHYWHYWHWY");
+    console.lo("THIS IS FUNCTION");
 }
 
 repeat();  //--function call
