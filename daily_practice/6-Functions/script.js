@@ -1,6 +1,4 @@
 console.log("------Function------");
-//what why how?
-//WAY-I
 function repeat(){
     console.lo("THIS IS FUNCTION");
 }
@@ -43,7 +41,7 @@ function absd(a,b,c,...val){
 
 absd(1,2,3,4,5,6,7,8)
 
-//return ------
+//-------return ------
 
 function ans()
 {
@@ -53,7 +51,7 @@ function ans()
 let abc = ans();
 console.log(abc);
 
-//--first class functions
+//-------first class functions
 
 
 
