@@ -15,9 +15,16 @@ function sayMyName()
 }
 sayMyName();
 
-function addTwoNUmber(number1,number2)   //parameters
-{
-  console.log(number1+number2);
-}
-addTwoNUmber(5,null);                  //arguements
+//----Simple Example;
+// function addTwoNUmber(number1,number2)   //parameters
+// {
+//   console.log(number1+number2);
+// }
+// addTwoNUmber(5,9);                  //arguements
 
+function add(num1,num2)
+{
+  let result=num1+num2;
+  console.log(result);
+}
+add(4,7);
