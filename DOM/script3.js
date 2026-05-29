@@ -4,3 +4,4 @@ function addSquares(a, b) {
   }
   return square(a) + square(b);
 }
+
