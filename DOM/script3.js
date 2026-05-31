@@ -1,4 +1,4 @@
-
+//function;
 function addSquares(a, b) {
   function square(x) {
     return x * x;
