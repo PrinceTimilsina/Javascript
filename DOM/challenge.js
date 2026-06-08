@@ -5,7 +5,6 @@
 //-change background color of page
 
 console.log("JS CONNECTED")
-
 let title_text= document.getElementById("heading");
 console.log("title_text");
 let button= document.getElementById("btn");
