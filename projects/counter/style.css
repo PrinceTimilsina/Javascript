@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+    background-image: url("https://thearchitectsdiary.com/wp-content/uploads/2024/01/Train-Station-Design-Image-01-1024x683.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat';
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1000px;
+}
+.card{
+    border:1px solid snow;
+    background-color:white;
+    width: 500px;
+    height: 670px;
+    border-radius: 59px;
+    opacity: 0.6;
+    font-size:30px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
