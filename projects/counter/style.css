@@ -32,7 +32,7 @@ body {
     opacity: 0.6;
     font-size:30px;
     font-weight: 500;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
